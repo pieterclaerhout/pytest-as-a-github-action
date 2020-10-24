@@ -26,8 +26,8 @@ jobs:
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
 
-    - name: Install Pytest Annotate Failures
-      run: pip install pytest-github-actions-annotate-failures
+    # - name: Install Pytest Annotate Failures
+    #   run: pip install pytest-github-actions-annotate-failures
 
     - name: Test with pytest
       run: |
